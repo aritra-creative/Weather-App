@@ -113,27 +113,27 @@
                 switch (condition)
                 {
                     case 'Clouds':  conditionDiv.innerText="Cloudy";
-                                    conditionImg.src= (isMorning() ?'cloudDay.webp'  : 'images/cloudNight.jpg'); 
+                                    conditionImg.src= (isMorning() ?'Images/cloudDay.webp'  : 'Images/cloudNight.jpg'); 
                                     break;
     
                     case 'Rain'  : conditionDiv.innerText="Rainy";       
-                                conditionImg.src="rain.jpg"; 
+                                conditionImg.src="Images/rain.jpg"; 
                                 break;
                     
                     case 'Clear' : conditionDiv.innerText="Clear";
-                                    conditionImg.src= (isMorning() ?'images/clearDay.jpg'  : '/images/clearNight.jpg');
+                                    conditionImg.src= (isMorning() ?'Images/clearDay.jpg'  : '/Images/clearNight.jpg');
                                     break;
                     
                     case 'Thunderstorm' : conditionDiv.innerText="Thunderstorm";
-                                    conditionImg.src= 'thunder.jpg';
+                                    conditionImg.src= 'Images/thunder.jpg';
                                     break;
                             
                     case 'Haze' :  conditionDiv.innerText="Haze";
-                                   conditionImg.src='haze.jpg'
+                                   conditionImg.src='Images/haze.jpg'
                                    break;
 
                     case 'Mist':conditionDiv.innerText="Haze";
-                                   conditionImg.src='haze.jpg'
+                                   conditionImg.src='Images/haze.jpg'
                                    break;
                 }
             }
